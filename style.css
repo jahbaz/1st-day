@@ -1,0 +1,92 @@
+/* coomon css */
+
+*{
+    
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+ ul,li,ol{
+     list-style: none;
+    
+ }
+
+ a{
+    text-decoration: none;
+ }
+body{
+    background-image: url(./assets/image/header/bg_main.gif);
+    background-position: center;
+}
+
+ /* common css :end000000000000000000000000000000000000000000000000000 */
+
+ .cont{
+    width: 996px;
+    margin: 0 auto;
+ }
+
+ .header_cont{
+    background-color: #9e5bba;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    color: white;
+ }
+ .header_right p{
+       display: inline-block;
+       border-right: 1px solid white;
+        padding-right: 10px;
+    
+    
+        margin-right: 10px;
+ }
+
+ .header_right a{
+    text-decoration: none;
+    color: white;
+ }
+ .logo_cont{
+    height: 110px;
+ }
+
+ .logo_left{
+    line-height: 110px;
+ }
+ .logo_search{
+     padding-top: 45px;
+ }
+
+ .logo_right{
+    padding-top: 35px;
+ }
+ .logo1{
+    border-right: 1px solid rgb(69, 65, 65);
+    padding-right: 10px;
+    margin-right: 10px;
+ }
+
+ .logo2 h5{
+    font-size: 13px;
+   color: blueviolet;
+ }
+ .cont1{
+    width: 1020px;
+    margin: 0 auto;
+ }
+  .menu1 ul li a{
+                border-right: 1px solid black;
+                padding-left: 14px;
+ } 
+
+ /* li{
+    border-right: 1px solid black;
+    padding-left: 14px;
+ } */
+ .menu1 ul li a:hover{
+    background-color: red;
+    color: white;
+    color: green;
+ }
